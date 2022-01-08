@@ -49,29 +49,28 @@ nav a:hover {
     background-color:  #FCA311;
     border-radius: 10px;
 }
-#imagem{
+
+.imagem  {
     position: absolute;
     left: 32.41%;
     right: 43.84%;
     top:26.99%;
     bottom:39.36%;
 
-    margin: auto;
-    margin-left: 363px;
-    margin-right: 491px;
+    margin: 195px 35px 35px;
+    
 }
 
-.areaFoto h1 {
+ h1 {
     position: absolute;
-    margin: 245px 35px 35px;
+    margin: 295px -95px 100px;
     
     width: 243px;
-    left: 34%;
-    right: 54%;
+    left: 54%;
+    right: 34%;
     top: 27.80%;
-    bottom:50.39%;
+    bottom:50.39%; 
     
-
     font-family: poppins;
     font-style: normal;
     font-size: 36px;
@@ -83,4 +82,14 @@ nav a:hover {
     text-align: center;
     
 }
-
+ [required]{
+    position: relative;
+    width: 100%;
+    left: 40.50%;
+    bottom: 90%;
+    margin: 35px  -75.6px 90.5px;
+    /*
+    
+      
+ */
+ }
