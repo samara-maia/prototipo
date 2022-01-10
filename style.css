@@ -89,11 +89,14 @@ nav a:hover {
  [required]{
     position: relative;
     width: 100%;
-    left: 32.41%;
-    right: 43.84%;
-    top:26.99%;
-    bottom:39.36%;
+    margin: -25px  -17px  10px;
+    left: 40px;
+    right: 10.99rem;
+    top: -3rem;
+    bottom: 40px;
 
+    /*
+    */
  }
 
 .sobreMim h1{
@@ -107,10 +110,37 @@ nav a:hover {
     font-size: 24px;
     line-height: 36px;
 
-    /*
-    font-family:popppins, regular, 500, 600 e 900 ;
-    font-style: normal;
-    font-weight: normal;
+}
+footer { 
+position: absolute;
+width: 243.86px;
+height: 97.34px;
+left: 17px;
+top: 613px;
+}
+
+.redesSociais {
+   display: inline;
+   padding: 10px 25px;
+   padding-inline-end: 0%;
+}
+
+.endereço h1 {
+    position: absolute;
+    width: 161px;
+    height: 59.800px;
+    left: 56.3px;
+    top: 54.5%;
     
-   */
+    border: 0;
+    font-family: Poppins 400;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    text-align: center;
+      
+   
 }
