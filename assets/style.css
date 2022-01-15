@@ -1,8 +1,8 @@
-*{
+* {
     font-family: 'Poppins', sans-serif;
 }
-body{
-    position: relative;
+body {
+    position: absolute;
     margin: 0;
     padding: 0;
     background: #000020;
@@ -86,6 +86,7 @@ nav a:hover {
     text-align: center;
     
 }
+
  [required]{
     position: relative;
     width: 100%;
@@ -95,9 +96,7 @@ nav a:hover {
     top: -3rem;
     bottom: 40px;
 
-    /*
-    */
- }
+}
 
 .sobreMim h1{
     position: absolute;
@@ -200,7 +199,7 @@ h2 {
     width: 292px;
     height: 183px;
     left: 556px;
-    top: 518px;
+    top: 318px;
     text-align: center;
 
     font-family: Poppins;
@@ -220,7 +219,7 @@ h2 {
     width: 2.19px;
     height: 613.77px;
     left: 465.89px;
-    top: 426px; 
+    top: 326px; 
 }
 
 /*
@@ -231,7 +230,7 @@ Experiencia
     width: 214px;
     height: 54px;
     left: 595px;
-    top: 126px;
+    top: 26px;
 
     font-family: Poppins;
     font-style: normal;
@@ -249,7 +248,7 @@ h2 {
     width: 320px;
     height: 117px;
     left: 542px;
-    top: 269px;
+    top: 169px;
 
     font-family: Poppins;
     font-style: normal;
@@ -267,7 +266,7 @@ h2 {
     width: 292px;
     height: 183px;
     left: 556px;
-    top: 518px;
+    top: 318px;
     text-align: center;
 
     font-family: Poppins;
@@ -278,5 +277,97 @@ h2 {
     display: flex;
     align-items: center;
     text-align: center;
+    color: #ffffff;
+}
+
+/* PROJETOS */
+section h1 {
+    position: absolute;
+    width: 214px;
+    height: 54px;
+    left: 595px;
+    top: 26px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.projects img {
+    position: absolute;
+    left: 30rem;
+    right: 46.16%;
+    top: 150.45px;
+    bottom: 33.79%;
+    
+}
+
+.projects2 img {
+    position: absolute;
+    left: 30rem;
+    right: 45.71%;
+    top: 27.15rem;
+    bottom: 21.02rem;
+}
+
+.projects h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 115.7rem;
+    height: 30rem;
+    left: 500px;
+    top:283px;
+}
+.projects2 h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 100rem;
+    height: 30rem;
+    left: 500px;
+    top: 567px;
+}
+.description p{
+    position: absolute;
+    width: 253px;
+    height: 174px;
+    left: 669px;
+    top: 220px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #ffffff;
+}
+
+.description2 p {
+    position: absolute;
+    width: 253px;
+    height: 171px;
+    left: 674px;
+    top:484px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
     color: #ffffff;
 }
