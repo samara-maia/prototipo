@@ -144,23 +144,6 @@ h2 {
 }
 
 /* PROJETOS */
-section h1 {
-    position: absolute;
-    width: 214px;
-    height: 54px;
-    left: 595px;
-    top: 26px;
-
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 54px;
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
 
 .projects img {
     position: absolute;
@@ -203,22 +186,10 @@ section h1 {
     left: 500px;
     top: 567px;
 }
-.description p {
-    
-    position: absolute;
-    width: 253px;
-    height: 174px;
-    left: 669px;
-    top: 220px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
 
-    color: #ffffff;
-}
+
+
 
 
 .description2 p {

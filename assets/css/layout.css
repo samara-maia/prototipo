@@ -162,3 +162,78 @@ h2 {
 h1 {
     color: #ffffff;
 }
+
+/**
+PROJETOS
+*/
+
+section h1 {
+    position: absolute;
+    width: 214px;
+    height: 54px;
+    left: 595px;
+    top: 26px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.description p {  
+    position: absolute;
+    width: 255px;
+    height: 176px;
+    left: 670px;
+    top: 145px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #ffffff;
+}
+
+.tech {
+    position: absolute;
+    width: 250px;
+    height: 170px;
+    left: 660px;
+    top: 203.15px;
+    color: #ffffff;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.description2 ul {
+    position: absolute;
+    width: 253rem;
+    height: 171rem;
+    left: 674rem;
+    top:484rem;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #ffffff;
+}
+
+.tool {
+    position: absolute;
+    width: 220px;
+    height: 171px;
+    top: 222px;
+}
