@@ -190,17 +190,32 @@ h2 {
 
 .description2 p {
     position: absolute;
+<<<<<<< HEAD
     width: 260px;
     height: 171px;
     left: 670px;
     top:420px;
+=======
+    width: 253px;
+    height: 171px;
+    left: 674px;
+    top:484px;
+>>>>>>> main
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
+<<<<<<< HEAD
     font-size: 15px;
     line-height: 14px;
 
     color: #ffffff;
 }
 
+=======
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #ffffff;
+}
+>>>>>>> main
