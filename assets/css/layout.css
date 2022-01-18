@@ -194,12 +194,25 @@ section h1 {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 14px;
 
     color: #ffffff;
 }
+b {
+    position: absolute;
+    width: 250px; 
+    height: 170px;
+    left: 670px;
+    top: 290px;
+    color: #ffffff;
 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 14px
+}
 .tech {
     position: absolute;
     width: 250px;
@@ -214,26 +227,48 @@ section h1 {
     font-size: 12px;
     line-height: 14px;
 }
-
-.description2 ul {
+.hero {
     position: absolute;
-    width: 253rem;
-    height: 171rem;
-    left: 674rem;
-    top:484rem;
+    width: 250px; 
+    height: 170px;
+    left: 670px;
+    top: 590px;
+    color: #ffffff;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 15px;
+    line-height: 14px
+}
+.description2 {
+    position: absolute;
+    width: 253px;
+    height: 171px;
+    left: 674px;
+    top:484px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
     line-height: 14px;
 
     color: #ffffff;
 }
 
-.tool {
+.tool  {
     position: absolute;
     width: 220px;
     height: 171px;
-    top: 222px;
+    left: 674px;
+    top: 300px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 14px;
+
+    color: #ffffff;
 }
