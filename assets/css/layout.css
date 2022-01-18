@@ -232,11 +232,7 @@ b {
     width: 250px; 
     height: 170px;
     left: 670px;
-<<<<<<< HEAD
     top: 570px;
-=======
-    top: 590px;
->>>>>>> main
     color: #ffffff;
 
     font-family: Roboto;
@@ -245,7 +241,6 @@ b {
     font-size: 15px;
     line-height: 14px
 }
-<<<<<<< HEAD
 .tool {
     
     position: absolute;
@@ -265,36 +260,3 @@ b {
 
 }
 
-=======
-.description2 {
-    position: absolute;
-    width: 253px;
-    height: 171px;
-    left: 674px;
-    top:484px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 14px;
-
-    color: #ffffff;
-}
-
-.tool  {
-    position: absolute;
-    width: 220px;
-    height: 171px;
-    left: 674px;
-    top: 300px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 14px;
-
-    color: #ffffff;
-}
->>>>>>> main
