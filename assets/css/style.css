@@ -1,0 +1,205 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background: #000020;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px;
+}
+.conteiner{
+    position: absolute;
+    margin: 0;
+    top:0;
+    width: 17.4rem;
+    height: 49.75rem;
+    left: -5px;
+
+    background: #142130;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+.menu {
+    position: absolute;
+    line-height: 50px;
+    width: 180px;
+    height: 258px;
+    left: 50px;
+    top: 65px;  
+}
+
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    padding: 5.1px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Poppins;
+    font-style: bold;
+    line-height: 36.1px;
+}
+
+nav .active a,
+nav a:hover {
+    background-color:  #FCA311;
+    border-radius: 10px;
+}
+
+footer { 
+position: absolute;
+width: 243.86px;
+height: 97.34px;
+left: 17px;
+top: 613px;
+}
+
+.img-container {
+    float: left;
+    padding: 10px 25px 0px;   
+}
+
+.redesSociais::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.endereco h1 {
+    position: absolute;
+    width: 161px;
+    height: 59.800px;
+    left: 56.3px;
+    top: 54.5%;
+    
+    border: 0;
+    color: #ffffff;
+    font-family: Poppins 400;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    text-align: center;
+      
+   
+}
+.endereco img {
+    position: relative;
+    top: 5.6px;
+   display: flex;
+   padding: 0.3%;
+
+}
+
+
+/*
+Experiencia
+*/
+
+
+h2 {
+    position: absolute;
+    width: 320px;
+    height: 117px;
+    left: 542px;
+    top: 169px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;   
+}
+
+.Renner h2{
+    position: absolute;
+    width: 292px;
+    height: 183px;
+    left: 556px;
+    top: 318px;
+    text-align: center;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* PROJETOS */
+
+.projects img {
+    position: absolute;
+    left: 30rem;
+    right: 46.16%;
+    top: 150.45px;
+    bottom: 33.79%;
+    
+}
+
+.projects2 img {
+    position: absolute;
+    left: 30rem;
+    right: 45.71%;
+    top: 27.15rem;
+    bottom: 21.02rem;
+}
+
+.projects h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 115.7rem;
+    height: 30rem;
+    left: 500px;
+    top:283px;
+}
+.projects2 h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 100rem;
+    height: 30rem;
+    left: 500px;
+    top: 567px;
+}
+
+
+.description2 p {
+    position: absolute;
+    width: 253px;
+    height: 171px;
+    left: 674px;
+    top:484px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #ffffff;
+}
