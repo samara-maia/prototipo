@@ -203,3 +203,28 @@ h2 {
 
     color: #ffffff;
 }
+
+/*TECNOLOGIAS*/
+
+.html {
+    position: absolute;
+    left: 26rem;
+    right: 52rem;
+    top: 285.55px;
+    bottom: 40.48px;
+}
+
+.css {
+    position: absolute;
+    left: 46rem;
+    right: 30.09rem;
+    top: 285.55px;
+    bottom: 40.99px;
+}
+.javascript {
+    position: absolute;
+    left: 65rem;
+    right: 5.98rem;
+    top: 285.55px;
+    bottom: 40.86px;
+}
