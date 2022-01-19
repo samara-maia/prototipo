@@ -1,230 +1,99 @@
-* {
-    font-family: 'Poppins', sans-serif;
+:root {
+    --yellow-100: #fca311;
+    --blue-900: #142130;
+    --gray-50: #ccc;
+    --gray-900: #292929;
 }
-body {
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    background: #000020;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 4px;
-}
-.conteiner{
-    position: absolute;
-    margin: 0;
-    top:0;
-    width: 17.4rem;
-    height: 49.75rem;
-    left: -5px;
-
-    background: #142130;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-}
+/** Start ASIDE **/
 .menu {
-    position: absolute;
-    line-height: 50px;
-    width: 180px;
-    height: 258px;
-    left: 50px;
-    top: 65px;  
-}
-
-nav ul,
-nav li {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav a {
-    display: block;
-    padding: 5.1px;
-    text-decoration: none;
-    color: #ffffff;
-    font-family: Poppins;
-    font-style: bold;
-    line-height: 36.1px;
-}
-
-nav .active a,
-nav a:hover {
-    background-color:  #FCA311;
-    border-radius: 10px;
-}
-
-footer { 
-position: absolute;
-width: 243.86px;
-height: 97.34px;
-left: 17px;
-top: 613px;
-}
-
-.img-container {
-    float: left;
-    padding: 10px 25px 0px;   
-}
-
-.redesSociais::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.endereco h1 {
-    position: absolute;
-    width: 161px;
-    height: 59.800px;
-    left: 56.3px;
-    top: 54.5%;
-    
-    border: 0;
-    color: #ffffff;
-    font-family: Poppins 400;
-    font-size: 12px;
-    line-height: 18px;
-    font-weight: normal;
-    display: flex;
-    align-items: center;
-    font-style: normal;
-    text-align: center;
-      
-   
-}
-.endereco img {
-    position: relative;
-    top: 5.6px;
-   display: flex;
-   padding: 0.3%;
-
-}
-
-
-/*
-Experiencia
-*/
-
-
-h2 {
-    position: absolute;
-    width: 320px;
-    height: 117px;
-    left: 542px;
-    top: 169px;
-
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 36px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #ffffff;   
-}
-
-.Renner h2{
-    position: absolute;
-    width: 292px;
-    height: 183px;
-    left: 556px;
-    top: 318px;
-    text-align: center;
-
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 36px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #ffffff;
-}
-
-/* PROJETOS */
-
-.projects img {
-    position: absolute;
-    left: 30rem;
-    right: 46.16%;
-    top: 150.45px;
-    bottom: 33.79%;
-    
-}
-
-.projects2 img {
-    position: absolute;
-    left: 30rem;
-    right: 45.71%;
-    top: 27.15rem;
-    bottom: 21.02rem;
-}
-
-.projects h2 {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
+    align-items: center;
+    align-content: space-between;
+    
+    width: 26rem;
+    height: 100vh;
 
-    position: absolute;
-    width: 115.7rem;
-    height: 30rem;
-    left: 500px;
-    top:283px;
+    background: var(--blue-900);
 }
-.projects2 h2 {
+
+.menu__nav {
+    font-size: 24px;
+    margin-top: 3rem;    
+}
+
+.menu__nav--list {
+    list-style-type: none;    
+}
+
+.menu__nav--list-item {
+    margin: 5px;
+}
+
+.menu__nav--list-item > a {
+    padding: 5px 10px 5px;
+}
+
+.menu__nav--list-item > a:hover, a:active {
+    background: var(--yellow-100);
+    border-radius: 5px;
+    color:white;    
+    transition: background .5s ease-out;
+}
+
+.main {
+    flex:1;
+    overflow: auto;
+    margin-left: 15px;
+}
+
+.footer__social--img {
+    padding-left: 5px;
+    padding-right: 5px;    
+}
+
+.address {
+    text-align: center;
+}
+/** End ASIDE **/
+
+/** Start Sections of site **/
+
+.aboutme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutme__text {
+    font-size: 18px;
+}
+
+.aboutme__avatar {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: absolute;
-    width: 100rem;
-    height: 30rem;
-    left: 500px;
-    top: 567px;
+    align-items: center;
+    justify-content: center;
 }
 
-
-.description2 p {
-    position: absolute;
-    width: 260px;
-    height: 171px;
-    left: 670px;
-    top:420px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 14px;
-
-    color: #ffffff;
+.aboutme__avatar > p {
+    font-size: x-large;
+    font-weight: 700;
 }
 
-/*TECNOLOGIAS*/
-
-.html {
-    position: absolute;
-    left: 26rem;
-    right: 52rem;
-    top: 285.55px;
-    bottom: 40.48px;
+.avatar {
+    border-radius: 56%;
+    height: 250px;
+    width: 250px;
 }
 
-.css {
-    position: absolute;
-    left: 46rem;
-    right: 30.09rem;
-    top: 285.55px;
-    bottom: 40.99px;
+.avatar__image {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
 }
-.javascript {
-    position: absolute;
-    left: 65rem;
-    right: 5.98rem;
-    top: 285.55px;
-    bottom: 40.86px;
+
+hr {
+    width: 210px;
+    border: 1px solid var(--yellow-100);
 }
