@@ -63,10 +63,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .aboutme__text {
     font-size: 18px;
+    width: 450px;
+    height: 70.45px;
 }
 
 .aboutme__avatar {
@@ -78,22 +81,47 @@
 
 .aboutme__avatar > p {
     font-size: x-large;
-    font-weight: 700;
+    font-weight: 700; 
 }
 
 .avatar {
     border-radius: 56%;
     height: 250px;
-    width: 250px;
+    width: 220px;
+    
 }
 
 .avatar__image {
     border-radius: 50%;
-    height: 100%;
     width: 100%;
+    height: 100%;
 }
 
 hr {
     width: 210px;
     border: 1px solid var(--yellow-100);
+}
+
+.formation__system > h1 {
+    font-size: x-large;
+    font-weight: 700; 
+    top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formation__system > h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formation__pos > h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rectangle hr {
+    width: 500px;
+    border: 1px solid var(--yellow-100)
 }

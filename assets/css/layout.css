@@ -27,3 +27,20 @@ a:focus {
 .container {
   display: flex
 }
+
+h2 {
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+#about-me {
+  position: relative;
+  top: 30px;
+}
+
+#formation {
+  position: relative;
+  top: 159px;
+}
+
