@@ -111,17 +111,24 @@ hr {
     justify-content: center;
 }
 
-.formation__system > h2 {
+.formation__system > p {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.formation__pos > h2 {
-    display: flex;
+.formation__pos > p > span {
+    display: grid;
+    font-size: 15px;
     align-items: center;
     justify-content: center;
 }
 .rectangle hr {
     width: 500px;
     border: 1px solid var(--yellow-100)
+}
+
+.formation__system--sa {
+    display: grid;
+    font-size: 15px;
+    justify-items: center;
 }
