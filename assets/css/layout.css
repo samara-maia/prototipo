@@ -28,12 +28,6 @@ a:focus {
   display: flex
 }
 
-h2 {
-  font-size: 20px;
-  font-weight: normal;
-  font-style: normal;
-}
-
 #about-me {
   position: relative;
   top: 30px;
