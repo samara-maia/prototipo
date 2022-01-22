@@ -154,3 +154,36 @@ hr {
     align-items: center;
     justify-content: center;
 }
+.draft > h1 {
+    font-size: x-large;
+    font-weight: 700; 
+    top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.draft__tech > p {
+    display: flex;
+    position: absolute;
+    left: 350px;
+    top: 85px;
+    
+}
+
+.draft__tech--list{
+    position: absolute;
+    left: 350px;
+    top: 110px;
+}
+.draft__tech--link {
+    position: relative;
+    left: -65px;
+    display: flex;
+    justify-content: center;
+    bottom: 60px;
+}
+.draft__tech--node{
+    position: absolute;
+    display: flex;
+    top: 384px;
+}
