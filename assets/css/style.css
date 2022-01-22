@@ -132,3 +132,25 @@ hr {
     font-size: 15px;
     justify-items: center;
 }
+
+.experience__front > h1 {
+    font-size: x-large;
+    font-weight: 700; 
+    top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.experience__front--end > p{
+    display: grid;
+    font-size: 15px;
+    justify-items: center;
+}
+
+.experience__cliant > p > span {
+    display: grid;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+}
