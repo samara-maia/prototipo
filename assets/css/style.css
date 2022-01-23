@@ -154,6 +154,8 @@ hr {
     align-items: center;
     justify-content: center;
 }
+
+/*class do id projects*/
 .draft > h1 {
     font-size: x-large;
     font-weight: 700; 
@@ -162,12 +164,11 @@ hr {
     align-items: center;
     justify-content: center;   
 }
-.draft__tech > p {
-    display: flex;
+.draft__tech > p > span {
+    display: grid;
     position: absolute;
     left: 350px;
     top: 85px;
-    
 }
 
 .draft__tech--list{
@@ -182,8 +183,25 @@ hr {
     justify-content: center;
     bottom: 60px;
 }
-.draft__tech--node{
-    position: absolute;
-    display: flex;
-    top: 384px;
+
+.draft__tech--node > P > span {
+    display: grid;
+    position: relative;
+    bottom: 150px;
+    justify-items: center;
+}
+.draft__tech--node > ul {
+    position: relative;
+    left: 350px;
+    bottom: 150px ;
+}
+.draft__tech--node > b {
+    position: relative;
+    left: 345px;
+    bottom: 150px;
+}
+.draft__heat {
+   position: relative;
+   left: 140px;
+   top: 22px;
 }

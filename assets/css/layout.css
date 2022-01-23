@@ -51,10 +51,24 @@ a:focus {
 [request] {
   position: relative;
   justify-items: center;
-  /*
-  bottom: 53px;
-  right: 39px;
   top: 30px;
-  left: 30px;
+  left: 100px;
+  /*
+  right: 39px;
+  bottom: 53px;
   */
 }
+.dog {
+  position: relative;
+  justify-items: center;
+  top: 30px;
+  left: 100px;
+}
+
+h2 {
+  position: relative;
+   left: 40px;
+  bottom: 10px;
+}
+
+
