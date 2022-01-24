@@ -205,3 +205,11 @@ hr {
    left: 140px;
    top: 22px;
 }
+
+/*class do id tecnologias*/
+.section__img--front {
+    display: inline-flex; 
+    width: 35rem;
+    height: 25vh;
+    
+}
