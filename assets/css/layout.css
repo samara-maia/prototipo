@@ -71,4 +71,16 @@ h2 {
   bottom: 10px;
 }
 
+#technologies{
+  position: relative;
+  top: 330px;
+}
 
+.tec  {
+  font-size: x-large;
+    font-weight: 700; 
+    top: 100rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
