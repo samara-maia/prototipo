@@ -28,12 +28,6 @@ a:focus {
   display: flex
 }
 
-h2 {
-  font-size: 20px;
-  font-weight: normal;
-  font-style: normal;
-}
-
 #about-me {
   position: relative;
   top: 30px;
@@ -44,3 +38,49 @@ h2 {
   top: 159px;
 }
 
+#experience {
+  position: relative;
+  top: 250px;
+}
+
+#projects{
+  position: relative;
+  top: 320px;
+}
+
+[request] {
+  position: relative;
+  justify-items: center;
+  top: 30px;
+  left: 100px;
+  /*
+  right: 39px;
+  bottom: 53px;
+  */
+}
+.dog {
+  position: relative;
+  justify-items: center;
+  top: 30px;
+  left: 100px;
+}
+
+h2 {
+  position: relative;
+   left: 40px;
+  bottom: 10px;
+}
+
+#technologies{
+  position: relative;
+  top: 330px;
+}
+
+.tec  {
+  font-size: x-large;
+    font-weight: 700; 
+    top: 100rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
