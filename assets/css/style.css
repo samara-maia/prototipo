@@ -5,6 +5,7 @@
     --gray-900: #292929;
 }
 /** Start ASIDE **/
+
 .menu {
     display: flex;
     flex-direction: column;
@@ -40,12 +41,7 @@
     color:white;    
     transition: background .5s ease-out;
 }
-
-.main {
-    flex:1;
-    overflow: auto;
-    margin-left: 15px;
-}
+    
 
 .footer__social--img {
     padding-left: 5px;
@@ -58,7 +54,13 @@
 /** End ASIDE **/
 
 /** Start Sections of site **/
-
+/*
+.flex__container {
+    display: block;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+*/
 .aboutme {
     display: flex;
     align-items: center;

@@ -23,31 +23,36 @@ a:focus {
   text-decoration: none;
 }
 
-
 .container {
   display: flex;
 }
-
-
+.flex__container{
+  justify-content: space-around;
+}
 
 #about-me {
+  display: flex;
   position: relative;
   top: 30px;
 }
 
 #formation {
   position: relative;
-  top: 159px;
+  top: 460px;
+  
+  /*
+  display: flex;
+  */
 }
 
-#experience {
+#experience  {
   position: relative;
-  top: 250px;
+  top: 495px;
 }
 
-#projects{
+#projects {
   position: relative;
-  top: 320px;
+  top: 535px;
 }
 
 [request] {
@@ -75,7 +80,7 @@ h2 {
 
 #technologies{
   position: relative;
-  top: 330px;
+  top: 415px;
 }
 
 .tec  {
