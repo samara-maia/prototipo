@@ -26,9 +26,6 @@ a:focus {
 .container {
   display: flex;
 }
-.flex__container{
-  justify-content: space-around;
-}
 
 #about-me {
   display: flex;
@@ -39,10 +36,6 @@ a:focus {
 #formation {
   position: relative;
   top: 460px;
-  
-  /*
-  display: flex;
-  */
 }
 
 #experience  {
@@ -60,10 +53,6 @@ a:focus {
   justify-items: center;
   top: 30px;
   left: 100px;
-  /*
-  right: 39px;
-  bottom: 53px;
-  */
 }
 .dog {
   position: relative;
