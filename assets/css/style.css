@@ -54,26 +54,23 @@
 /** End ASIDE **/
 
 /** Start Sections of site **/
-/*
-.flex__container {
-    display: block;
-    flex-wrap: wrap;
-    align-items: flex-start;
-}
-*/
+
+/* sections uno */
+#about-me {
+    display: flex;
+    position: relative;
+    top: 30px;
+ }
 .aboutme {
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;  
 }
-
 .aboutme__text {
     font-size: 18px;
     width: 450px;
     height: 70.45px;
 }
-
 .aboutme__avatar {
     display: flex;
     flex-direction: column;
@@ -103,14 +100,25 @@ hr {
     width: 210px;
     border: 1px solid var(--yellow-100);
 }
+/* fim da primeira section */
 
-.formation__system > h1 {
+/* sections two */
+#formation {
+    position: absolute;
+    top: 470px;
+  }
+  .formation__system > h1 {
     font-size: x-large;
     font-weight: 700; 
     top: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
+}  
+.formation__system--sa {
+    display: grid;
+    font-size: 15px;
+    justify-items: center;
 }
 
 .formation__system > p {
@@ -127,91 +135,4 @@ hr {
 .rectangle hr {
     width: 500px;
     border: 1px solid var(--yellow-100)
-}
-
-.formation__system--sa {
-    display: grid;
-    font-size: 15px;
-    justify-items: center;
-}
-
-.experience__front > h1 {
-    font-size: x-large;
-    font-weight: 700; 
-    top: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-.experience__front--end > p{
-    display: grid;
-    font-size: 15px;
-    justify-items: center;
-}
-
-.experience__cliant > p > span {
-    display: grid;
-    font-size: 15px;
-    align-items: center;
-    justify-content: center;
-}
-
-/*class do id projects*/
-.draft > h1 {
-    font-size: x-large;
-    font-weight: 700; 
-    top: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;   
-}
-.draft__tech > p > span {
-    display: grid;
-    position: absolute;
-    left: 350px;
-    top: 85px;
-}
-
-.draft__tech--list{
-    position: absolute;
-    left: 350px;
-    top: 110px;
-}
-.draft__tech--link {
-    position: relative;
-    left: -65px;
-    display: flex;
-    justify-content: center;
-    bottom: 60px;
-}
-
-.draft__tech--node > P > span {
-    display: grid;
-    position: relative;
-    bottom: 150px;
-    justify-items: center;
-}
-.draft__tech--node > ul {
-    position: relative;
-    left: 350px;
-    bottom: 150px ;
-}
-.draft__tech--node > b {
-    position: relative;
-    left: 345px;
-    bottom: 150px;
-}
-.draft__heat {
-   position: relative;
-   left: 140px;
-   top: 22px;
-}
-
-/*class do id tecnologias*/
-.section__img--front {
-    display: inline-flex; 
-    width: 35rem;
-    height: 25vh;
-    
 }
