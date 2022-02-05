@@ -27,16 +27,13 @@ a:focus {
   display: flex;
 }
 
-.container_items{
+.flex__container{
+  display: flex;
+  justify-items: center;
+}
+
+.container__items{
   padding-left: 10px;
   padding-right: 10px;
   margin: 0 auto;
-}
-.flex__container{
-  clear: both;
-  display: flexbox;
-  flex-wrap: wrap;
-  /*
-  align-items: flex-start;
-  */
 }

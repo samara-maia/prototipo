@@ -104,10 +104,10 @@ hr {
 
 /* sections two */
 #formation {
-    position: absolute;
-    top: 470px;
-  }
-  .formation__system > h1 {
+    position: relative;
+    top: 350px;
+}
+ .formation__system > h1 {
     font-size: x-large;
     font-weight: 700; 
     top: 15px;
@@ -136,3 +136,129 @@ hr {
     width: 500px;
     border: 1px solid var(--yellow-100)
 }
+
+/*sections three*/
+
+#experience  {
+    position: relative;
+    top: 390px;
+ }
+
+ .experience__front > h1 {
+    font-size: x-large;
+    font-weight: 700; 
+    top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.experience__front--end > p{
+    display: grid;
+    font-size: 15px;
+    justify-items: center;
+}
+
+.experience__cliant > p > span {
+    display: grid;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+/*sections four*/
+/*
+#projects {
+    position: relative;
+    top: 865px;
+}
+
+  .draft > h1 {
+    font-size: x-large;
+    font-weight: 700; 
+    top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.draft__tech > p > span {
+    display: grid;
+    position: absolute;
+    left: 350px;
+    top: 85px;
+}
+.tech  {
+    font-size: x-large;
+      font-weight: 700; 
+      top: 100rem;
+      display: flex;
+      align-items: center;
+      justify-content: center; 
+  }
+  
+.draft__tech--list {
+    position: absolute;
+    left: 350px;
+    top: 110px;
+}
+.draft__tech--link {
+    position: relative;
+    left: -65px;
+    display: flex;
+    justify-content: center;
+    bottom: 60px;
+}
+
+.draft__tech--node > P > span {
+    display: grid;
+    position: relative;
+    bottom: 150px;
+    justify-items: center;
+}
+.draft__tech--node > ul {
+    position: relative;
+    left: 350px;
+    bottom: 150px ;
+}
+.draft__tech--node > b {
+    position: relative;
+    left: 345px;
+    bottom: 150px;
+}
+.draft__heat {
+   position: relative;
+   left: 140px;
+   top: 22px;
+}
+
+[request] {
+    position: relative;
+    justify-items: center;
+    top: 30px;
+    left: 100px;
+  }
+  .dog {
+    position: relative;
+    justify-items: center;
+    top: 30px;
+    left: 100px;
+  }
+  h2 {
+    position: relative;
+    left: 40px;
+    bottom: 10px;
+  }
+
+/*sections five*/
+/*
+#technologies{
+    position: relative;
+    top: 415px;
+  }
+
+  .section__img--front {
+    display: inline-flex; 
+    width: 35rem;
+    height: 25vh;
+  }
+  */
