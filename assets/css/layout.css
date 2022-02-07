@@ -27,9 +27,8 @@ a:focus {
   display: flex;
 }
 
-.flex__container{
-  display: flex;
-  justify-items: center;
+.layou__menu{
+  position: fixed;
 }
 
 .container__items{
@@ -37,3 +36,10 @@ a:focus {
   padding-right: 10px;
   margin: 0 auto;
 }
+
+.flex__container{
+  display: flex;
+  justify-items: center;
+}
+
+
