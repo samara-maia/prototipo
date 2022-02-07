@@ -107,44 +107,24 @@ hr {
 
 #formation {
     position: absolute;
-    top: 530px;
-}
-
-#formation .container {
-    display: flex;
     font-size: 15px;
-    align-items: center;
-}
-.formation__system > h1 {
-    position: relative;
-    left: 15rem;
-    top: -1rem;
+    left: 50rem;
+    top: 60rem;
 }  
 
-.formation__system--sa > span {
+ h1 {
+   
+    text-align: center;
+    line-height: 20rem;
+}
+.formation__system > span  {
     display: grid;
     font-size: 20px;
-    left: 50rem;
-    top: 1.10rem;
     justify-items: center;
     align-items: center;
 }
-
-.formation__system > p {
-    display: grid;
-    font-size: 20px;
-    justify-items: center;
-}
-
-.formation__system--sa > span {
-    display: grid;
-    font-size: 20px;
-    justify-content: center;
-    
-}
-
 .rectangle hr {
-    width: 500px;
+    width: 450px;
     border: 1px solid var(--yellow-100)
 }
 
@@ -152,113 +132,84 @@ hr {
 
 #experience  {
     position: absolute;
+    font-size: 15px;
+    left: 50rem;
     top: 115.10rem;
 }
-
- #experience .container {
-    display: flex;
-    font-size: 15px;
-    align-items: center;
-
- }
- .experience__front > h1 {
-     position: relative;
-     left: 1rem;
-     top: -10rem;
-     display: flex;
-     align-items: center;
-     justify-content: center;
+h1 {
+    text-align: center;
+    line-height: 20rem;
 }
-.experience__front--end > p {
+
+.experience__front > span {
     display: grid;
-    font-size: 25px;
+    font-size: 20px;
     justify-items: center;
-}
-
-.experience__cliant > p > span {
-    display: grid;
-    font-size: 25px;
     align-items: center;
-    justify-content: center;
 }
 
 /*sections four*/
 
 #projects {
     position: absolute;
+    font-size: 15px;
+    left: 50rem;
     top: 155rem;
 }
-#projects .container {
-    display: grid;
-    font-size: 15px;
-    justify-items: center;
-}
-.draft > h1 {
-    display: flex;
-    top: 25px;
-    align-items: center;
-    justify-content: center;       
-}
-.draft__tech > p > span {
+
+.draft__tech  > span {
     position: relative;
     display: grid;
-    left: 25rem;
-    top: -7rem;
+    left: 0rem;
+    top: 0rem;
 }
 
 .draft__tech--list {
     position: relative;
-    left: 25rem;
-    top: -8rem;
+    left: 0rem;
+    top: 0rem;
 }
 .draft__tech--link {
     position: relative;
     display: flex;
-    left: 22rem;
-    top: -8rem;
-    justify-content: center;
+   
 }
 
-.draft__tech--node > p > span {
+.draft__tech--node > span {
     position: relative;
     display: flex;
-    left: 35rem;
-    top: -20rem;
+    
 }
+
 .draft__tech--node > ul {
     position: relative;
-    left: 35rem;
-    top: -20rem;
+    
 }
 .draft__tech--node > b {
     position: relative;
-    left: 35rem;
-    top: -20rem;
+    
 }
 .draft__heat {
     position: relative;
-    left: -7rem;
-    top: 14rem;
+   
 }
 
 [request] {
     position: relative;
-    justify-items: center;
-    top: 15rem;
-    left: -10rem;
+    
 }
 .dog {
     position: relative;
-    justify-items: center;
-    top: 2rem;
-    left: -10rem;
+    
+    
 }
 
  h2 {
     position: relative;
     left: 40px;
-  }
 
+ }
+ 
 /*sections five*/
 
 #technologies{
@@ -266,15 +217,8 @@ hr {
     top: 275rem;
 }
 
-#technologies  .container{
-    display: grid;
-    font-size: 15px;
-    justify-items: center;  
-}
-
 .section__img--front {
     width: 45rem;
     height: 29vh;
     
 }
-  
