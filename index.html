@@ -6,17 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samara Maia</title>
+    <link rel="stylesheet" href="/assets/css/normarlize.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/layout.css">
 </head>
 
 <body>
     <div class="container">
-        <aside class="menu">
+        <aside class="menu layou__menu">
             <nav class="menu__nav">
                 <ul class="menu__nav--list">
                     <li class="menu__nav--list-item"><a href="/">HOME</a></li>
-                    <li class="menu__nav--list-item"><a href="/pages/sobre.html"> SOBRE </a></li>
+                    <li class="menu__nav--list-item"><a href="/index.html"> SOBRE </a></li>
                     <li class="menu__nav--list-item"><a href="/pages/formação.html">FORMAÇÃO</a></li>
                     <li class="menu__nav--list-item"><a href="/pages/experiencia.html">EXPERIÊNCIA</a></li>
                     <li class="menu__nav--list-item"><a href="/pages/projetos.html">PROJETOS</a></li>
@@ -35,99 +36,116 @@
                 <span>COND. ALGODOAL PARQUE VERDE - MARITUBA</span>
             </div>
         </aside>
-        <div class="container_items">
-         <main class="flex__container">
-            <section id="about-me">
-                <div class="aboutme">
-                    <div class="aboutme__avatar">
-                        <div class="avatar">
-                            <img class="avatar__image" src="/assets/img/foto2.svg" alt="Fotgrafia da Samara Maia sorrindo">
-                        </div>                    
-                        <p>Samara Maia</p>
-                        <hr />  
+        <div class="container__items">
+            <main class="flex__container">
+                <section id="about-me">
+                    <div class="aboutme">
+                        <div class="aboutme__avatar">
+                            <div class="avatar">
+                                <img class="avatar__image" src="/assets/img/foto2.svg"
+                                    alt="Fotgrafia da Samara Maia sorrindo">
+                            </div>
+                            <p>Samara Maia</p>
+                            <hr />
+                        </div>
+                        <div class="aboutme__text">
+                            <p>Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit.
+                                Tenetur distinctio ad in cum quasi fugit
+                                sed laborum possimus doloribus.
+                                Vel natus ipsum quisquam cupiditate?
+                                Ipsum magni voluptas delectus possimus
+                                exercitationem?</p>
+                        </div>
                     </div>
-                    <div class="aboutme__text">
-                        <p>Lorem ipsum dolor sit
-                            amet consectetur adipisicing elit.
-                            Tenetur distinctio ad in cum quasi fugit
-                            sed laborum possimus doloribus.
-                            Vel natus ipsum quisquam cupiditate?
-                            Ipsum magni voluptas delectus possimus
-                            exercitationem?</p>
-                    </div>
-                </div>                
-            </section>
-            <section id="formation">
-                <div class="formation__system">
-                    <h1> FORMAÇÃO </h1>
-                    <div class="formation__system--sa">
-                        <span> Sistema de Informação </span>
-                        <span> Estácio de Sá </span>
-                              Belém - PA 2017 
-                    </div> 
-                    
-                    <div class="rectangle">
-                        <hr /> 
-                    </div>
+                </section>
 
-                </div>
-                <div class="formation__pos">
-                    <p> <span> Pós Graduação em Gestão de Projetos </span>
-                        <span> UFPA Belém - PA  2014</p></span>             
-                </div>
-            </section>
-            <section id="experience">
-             <div class="experience__front">  
-                <h1>EXPERIÊNCIA</h1>
-              <div class="experience__front--end"> 
-                <p><span> Estagiária FrontEnd </span>
-                  <span> Unimed Belém 2010-2011 </span></p> 
-             
-            <div class="rectangle">
-                <hr /> 
-            </div>
-            <div class="experience__cliant">
-                <p> <span>Atendimento ao Cliente </span> 
-                    <span> Renner 2008-2010</p> </span>                  
-            </div>
-            </section>
-        
-            <section id="projects">
-                <div class="draft">
-                   <h1> PROJETOS </h1>
-                <img src="/assets/img/Group 6427 (1).svg" alt="NLW" request>
-                <h2 class="draft__heat">NLW HEAT</h2>
-                </div> 
-                <div class="draft__tech">
-                    <p> <span> Este projeto consiste em um sistema
-                        de controle <span> de finanças pessoais.
-                        Nele está sendo utilizado.</span></p>
-                        <ul class="draft__tech--list">
-                            <li>nodejs</li>
-                            <li>express</li>
-                            <li>mongodb</li>
-                            <li> NextJs + Chakra UI</li>                     
-                       </ul> 
-                    <b class="draft__tech--link">Está hospedado no Heroku <a href="">(clique aqui)</a></b>
-                </div>
-                <div class="dog">
-                    <img src="/assets/img/dog(1).svg" alt="meupet">
-                    <h2>MEU PET</h2>
-                </div>
-                <div class="draft__tech--node">
-                    <p> <span> Sistema de estudo para controle de informações de animais domesticos.</span>
-                        <span>(Vacinas, banhos, tosas, doenças, remédios etc)</span> </p>
-                       <ul>
-                        <li>nodejs</li>
-                        <li>express</li>
-                        <li>mongodb</li>
-                        <li> NextJs + Chakra UI</li>           
-                       </ul>
-                       <b>Está hospedado no Heroku <a href="">(clique aqui)</a></b> 
-                </div>
-            </section>
-        
-            <section id="technologies">
+                <section id="formation">
+                       <div class="container__items">
+                        <div class="formation__system">
+                            <h1> FORMAÇÃO </h1>
+                            <div class="formation__system--sa">
+                                <span> Sistema de Informação </span>
+                                <span> Estácio de Sá 
+                                 <span>Belém - PA 2017 </span>
+                            </div>
+
+                            <div class="rectangle">
+                                <hr />
+                            </div>
+
+                            <div class="formation__system">
+                                <p> <span> Pós Graduação em Gestão de Projetos </span>
+                                    <span> UFPA Belém - PA 2014</span>
+                                </p>
+                            </div>
+                        </div>       
+                    </div>
+                  </section>
+
+                <section id="experience">
+                    <div class="container__items">
+                        <div class="experience__front">
+                            <h1>EXPERIÊNCIA</h1>
+                            <div class="experience__front--end">
+                                <p><span> Estagiária FrontEnd </span>
+                                    <span> Unimed Belém 2010-2011 </span>
+                                </p>
+
+                                <div class="rectangle">
+                                    <hr />
+                                </div>
+
+                                <div class="experience__cliant">
+                                    <p> <span>Atendimento ao Cliente </span>
+                                        <span> Renner 2008-2010
+                                    </p> </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="projects">
+                    <div class="container__items">
+                        <div class="draft">
+                            <h1> PROJETOS </h1>
+                            <img src="/assets/img/Group 6427 (1).svg" alt="NLW" request>
+                            <h2 class="draft__heat">NLW HEAT</h2>
+                        </div>
+                        <div class="draft__tech">
+                            <p> <span> Este projeto consiste em um sistema
+                                    de controle</span> <span> de finanças pessoais.
+                                        Nele está sendo utilizado.</span></p>
+                            <ul class="draft__tech--list">
+                                <li>nodejs</li>
+                                <li>express</li>
+                                <li>mongodb</li>
+                                <li> NextJs + Chakra UI</li>
+                            </ul>
+                            <b class="draft__tech--link">Está hospedado no Heroku <a href="">(clique aqui)</a></b>
+                        </div>
+                        <div class="dog">
+                            <img src="/assets/img/dog(1).svg" alt="meupet">
+                            <h2>MEU PET</h2>
+                        </div>
+                        <div class="draft__tech--node">
+                            <p> <span> Sistema de estudo para controle de informações de animais domesticos.</span>
+                                <span>(Vacinas, banhos, tosas, doenças, remédios etc)</span>
+                            </p>
+                            <ul>
+                                <li>nodejs</li>
+                                <li>express</li>
+                                <li>mongodb</li>
+                                <li> NextJs + Chakra UI</li>
+                            </ul>
+                            <b>Está hospedado no Heroku <a href="">(clique aqui)</a></b>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="technologies">
+                <div class="container__items">      
                 <h1 class="tec">TECNOLOGIAS</h1>
                 <div class="section__img--front">
                     <img src="/assets/img/html.svg" alt="html5">
@@ -138,9 +156,11 @@
                 <div class="section__img--front">
                     <img src="/assets/img/javascript.svg" alt="javascript">
                 </div>
+            </div>
             </section>   
-        </main>
-      </div>
+
+            </main>
+        </div>
     </div>
 </body>
 

@@ -27,56 +27,19 @@ a:focus {
   display: flex;
 }
 
-#about-me {
+.layou__menu{
+  position: fixed;
+}
+
+.container__items{
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+
+.flex__container{
   display: flex;
-  position: relative;
-  top: 30px;
-}
-
-#formation {
-  position: relative;
-  top: 460px;
-}
-
-#experience  {
-  position: relative;
-  top: 495px;
-}
-
-#projects {
-  position: relative;
-  top: 535px;
-}
-
-[request] {
-  position: relative;
   justify-items: center;
-  top: 30px;
-  left: 100px;
-}
-.dog {
-  position: relative;
-  justify-items: center;
-  top: 30px;
-  left: 100px;
 }
 
-h2 {
-  position: relative;
-   left: 40px;
-  bottom: 10px;
-}
 
-#technologies{
-  position: relative;
-  top: 415px;
-}
-
-.tec  {
-  font-size: x-large;
-    font-weight: 700; 
-    top: 100rem;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-}
