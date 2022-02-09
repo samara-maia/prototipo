@@ -31,7 +31,6 @@ a:focus {
   display: flex;
 }
 
-<<<<<<< HEAD
 .layou__menu{
   position: fixed;
 }
@@ -42,18 +41,6 @@ a:focus {
   margin: 0 auto;
 }
 
-=======
-.container__items{
-  padding-left: 10px;
-  padding-right: 10px;
-  margin: 0 auto ;
-}
-.items--section{
-  padding: 30px;
-  margin: 10px;
-  border: 1px solid #000;
-}
->>>>>>> feat/new
 .flex__container{
   display: flex;
   justify-items: center;

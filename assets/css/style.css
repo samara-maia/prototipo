@@ -104,38 +104,6 @@ hr {
 /* fim da primeira section */
 
 /* sections two */
-<<<<<<< HEAD
-
-#formation {
-    position: absolute;
-    top: 530px;
-}
-
-#formation .container {
-    display: flex;
-    font-size: 15px;
-    align-items: center;
-}
-.formation__system > h1 {
-    position: relative;
-    left: 15rem;
-    top: -1rem;
-}  
-
-.formation__system--sa > span {
-    display: grid;
-    font-size: 20px;
-    left: 50rem;
-    top: 1.10rem;
-    justify-items: center;
-    align-items: center;
-}
-
-.formation__system > p {
-    display: grid;
-    font-size: 20px;
-    justify-items: center;
-=======
 
 #formation {
     position: absolute;
@@ -154,7 +122,6 @@ hr {
     font-size: 20px;
     justify-items: center;
     align-items: center;
->>>>>>> feat/new
 }
 
 .formation__system--sa > span {
@@ -170,69 +137,6 @@ hr {
 }
 
 /*sections three*/
-<<<<<<< HEAD
-
-#experience  {
-    position: absolute;
-    top: 115.10rem;
-}
-
- #experience .container {
-    display: flex;
-    font-size: 15px;
-    align-items: center;
-
- }
- .experience__front > h1 {
-     position: relative;
-     left: 1rem;
-     top: -10rem;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-}
-.experience__front--end > p {
-    display: grid;
-    font-size: 25px;
-    justify-items: center;
-}
-
-.experience__cliant > p > span {
-    display: grid;
-    font-size: 25px;
-    align-items: center;
-    justify-content: center;
-}
-
-/*sections four*/
-
-#projects {
-    position: absolute;
-    top: 155rem;
-}
-#projects .container {
-    display: grid;
-    font-size: 15px;
-    justify-items: center;
-}
-.draft > h1 {
-    display: flex;
-    top: 25px;
-    align-items: center;
-    justify-content: center;       
-}
-.draft__tech > p > span {
-    position: relative;
-    display: grid;
-    left: 25rem;
-    top: -7rem;
-}
-
-.draft__tech--list {
-    position: relative;
-    left: 25rem;
-    top: -8rem;
-=======
 
 #experience  {
     position: absolute;
@@ -272,23 +176,10 @@ h1 {
     position: relative;
     left: 0rem;
     top: 0rem;
->>>>>>> feat/new
 }
 .draft__tech--link {
     position: relative;
     display: flex;
-<<<<<<< HEAD
-    left: 22rem;
-    top: -8rem;
-    justify-content: center;
-}
-
-.draft__tech--node > p > span {
-    position: relative;
-    display: flex;
-    left: 35rem;
-    top: -20rem;
-=======
    
 }
 
@@ -296,25 +187,10 @@ h1 {
     position: relative;
     display: flex;
     
->>>>>>> feat/new
 }
 
 .draft__tech--node > ul {
     position: relative;
-<<<<<<< HEAD
-    left: 35rem;
-    top: -20rem;
-}
-.draft__tech--node > b {
-    position: relative;
-    left: 35rem;
-    top: -20rem;
-}
-.draft__heat {
-    position: relative;
-    left: -7rem;
-    top: 14rem;
-=======
     
 }
 .draft__tech--node > b {
@@ -324,56 +200,29 @@ h1 {
 .draft__heat {
     position: relative;
    
->>>>>>> feat/new
 }
 
 [request] {
     position: relative;
-<<<<<<< HEAD
-    justify-items: center;
-    top: 15rem;
-    left: -10rem;
-}
-.dog {
-    position: relative;
-    justify-items: center;
-    top: 2rem;
-    left: -10rem;
-=======
     
 }
 .dog {
     position: relative;
     
     
->>>>>>> feat/new
 }
 
  h2 {
     position: relative;
     left: 40px;
-<<<<<<< HEAD
-  }
-
-=======
 
  }
  
->>>>>>> feat/new
 /*sections five*/
 
 #technologies{
     position: absolute;
     top: 275rem;
-<<<<<<< HEAD
-}
-
-#technologies  .container{
-    display: grid;
-    font-size: 15px;
-    justify-items: center;  
-=======
->>>>>>> feat/new
 }
 
 .section__img--front {
