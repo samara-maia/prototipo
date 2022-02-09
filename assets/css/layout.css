@@ -23,15 +23,13 @@ a:focus {
   text-decoration: none;
 }
 
-.layou__menu{
-  position: fixed;
-}
 
-.container {
+.container{
+  margin: 0rem -2rem;
   display: flex;
 }
 
-.layou__menu{
+.layout__menu{
   position: fixed;
 }
 
@@ -40,6 +38,7 @@ a:focus {
   padding-right: 10px;
   margin: 0 auto;
 }
+
 
 .flex__container{
   display: flex;
