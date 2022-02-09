@@ -69,18 +69,20 @@
     justify-content: center;  
 }
 .aboutme__text {
-    font-size: 18px;
-    width: 450px;
-    height: 70.45px;
+    font-size: 16px;
+    text-align: center;
+    width: 26.2rem;
+    margin: 15.2rem 0;    
 }
+
 .aboutme__avatar {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
 }
 
-.aboutme__avatar > p {
+.aboutme__avatar > p  {
     font-size: x-large;
     font-weight: 700; 
 }
@@ -88,8 +90,7 @@
 .avatar {
     border-radius: 56%;
     height: 250px;
-    width: 220px;
-    
+    width: 220px;  
 }
 
 .avatar__image {
@@ -231,4 +232,12 @@ h1 {
     height: 29vh;
     
 }
-  
+
+ @media(min-width: 992px){
+     .about-me{
+         padding: 10%;
+         padding: 10%;
+
+         font-size: 2.2rem;
+     }
+ } 
