@@ -115,9 +115,8 @@ hr {
 }  
 
  h1 {
-   
-    text-align: center;
-    line-height: 20rem;
+    left: 50px;
+    top: 10px;
 }
 .formation__system > span  {
     display: grid;
@@ -163,61 +162,63 @@ h1 {
 #projects {
     position: absolute;
     font-size: 15px;
-    left: 50rem;
     top: 155rem;
 }
 
 .draft__tech  > span {
     position: relative;
     display: grid;
-    left: 0rem;
-    top: 0rem;
+    left: 4rem;
+    bottom: 19rem;
 }
 
 .draft__tech--list {
     position: relative;
-    left: 0rem;
-    top: 0rem;
+    left: 2rem;
+    bottom: 20rem;
 }
 .draft__tech--link {
     position: relative;
-    display: flex;
-   
+    left: 4rem;
+    bottom: 20rem;
 }
 
 .draft__tech--node > span {
     position: relative;
-    display: flex;
+    display: grid;
+    left: 2rem;    
+    bottom: 20rem;
     
 }
 
 .draft__tech--node > ul {
     position: relative;
-    
+    display: grid;
+    left: 2rem;    
+    bottom: 20rem;
 }
 .draft__tech--node > b {
     position: relative;
-    
+    left: 2rem;    
+    bottom: 20rem;
 }
+
 .draft__heat {
     position: relative;
-   
+    left: -13rem;    
+    bottom: -1rem;
 }
 
-[request] {
+[request], .dog {
     position: relative;
-    
-}
-.dog {
-    position: relative;
-    
-    
+    left: -15rem;
+    top: 2rem;
 }
 
- h2 {
+ h2  {
     position: relative;
-    left: 40px;
-
+    left: 3rem;
+    bottom: 1rem;
  }
  
 /*sections five*/

@@ -32,21 +32,18 @@ a:focus {
 .layout__menu{
   position: fixed;
 }
-/*
-.items--section {
-  
-  
-}
-*/
 .container__items{
-  padding-left: 10px;
-  padding-right: 10px;
-  margin: 0  auto;
+  margin-bottom: 20px;
+  padding-bottom: 28px;
+  margin: 1rem  45rem;
 }
 
+/*
 .flex__container{
   display: flex;
   justify-items: center;
+  align-items: center;
 }
+*/
 
 
