@@ -59,20 +59,21 @@
 /* sections uno */
 
 #about-me {
-    display: flex;
-    position: relative;
-    top: 30px;
- }
+    position: absolute;
+    font-size: 15px;
+    
+}
+
 .aboutme {
-    display: flex;
-    align-items: center;
-    justify-content: center;  
+    justify-content: center; 
+    display: grid;
+    text-align: center;
+
 }
 .aboutme__text {
     font-size: 16px;
-    text-align: center;
-    width: 26.2rem;
-    margin: 15.2rem 0;    
+    margin: 15.1rem ;    
+    width: 30.5rem;
 }
 
 .aboutme__avatar {
@@ -110,13 +111,13 @@ hr {
 #formation {
     position: absolute;
     font-size: 15px;
-    left: 50rem;
-    top: 60rem;
+    padding: 50px;
+    top: 52rem;
 }  
 
  h1 {
     left: 50px;
-    top: 10px;
+    top: 25px;
 }
 .formation__system > span  {
     display: grid;
@@ -142,8 +143,8 @@ hr {
 #experience  {
     position: absolute;
     font-size: 15px;
-    left: 50rem;
-    top: 115.10rem;
+    padding: 50px;
+    top: 98rem;
 }
 h1 {
     text-align: center;
@@ -161,79 +162,49 @@ h1 {
 
 #projects {
     position: absolute;
-    font-size: 15px;
-    top: 155rem;
+    font-size: 14px;
+    top: 145.10rem;
 }
 
-.draft__tech  > span {
+.draft__tech--node  > span {
     position: relative;
-    display: grid;
-    left: 4rem;
-    bottom: 19rem;
+    left: 20rem;
+    bottom: 12rem;
 }
 
-.draft__tech--list {
+.draft__tech--list > li {
     position: relative;
-    left: 2rem;
-    bottom: 20rem;
-}
-.draft__tech--link {
-    position: relative;
-    left: 4rem;
-    bottom: 20rem;
+    left: 18rem;
+    bottom: 13rem;
 }
 
-.draft__tech--node > span {
+ b {
     position: relative;
-    display: grid;
-    left: 2rem;    
-    bottom: 20rem;
-    
+    left: 20rem;
+    bottom: 13rem;
 }
-
-.draft__tech--node > ul {
-    position: relative;
-    display: grid;
-    left: 2rem;    
-    bottom: 20rem;
-}
-.draft__tech--node > b {
-    position: relative;
-    left: 2rem;    
-    bottom: 20rem;
-}
-
 .draft__heat {
-    position: relative;
-    left: -13rem;    
-    bottom: -1rem;
+    flex-wrap: wrap;
+    width: 55rem;
+    height: 18vh;
 }
-
-[request], .dog {
-    position: relative;
-    left: -15rem;
-    top: 2rem;
-}
-
- h2  {
-    position: relative;
-    left: 3rem;
-    bottom: 1rem;
- }
  
+
 /*sections five*/
 
 #technologies{
     position: absolute;
-    top: 275rem;
+    padding: 25%;
+    top: 235rem;
 }
 
 .section__img--front {
+    flex-wrap: wrap;
     width: 45rem;
     height: 29vh;
     
 }
-
+/*
  @media(min-width: 992px){
      .about-me{
          padding: 10%;
@@ -242,3 +213,4 @@ h1 {
          font-size: 2.2rem;
      }
  } 
+ */
